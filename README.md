@@ -1,8 +1,6 @@
 # chemistry
 
-<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
-
-- [Section 1 Several basic concepts](#several-basic-concepts)
+- [Section 1 Several basic concepts](#section-1-several-basic-concepts)
    * [System and environment](#system-and-environment)
 - [Section 2 Mass Conservation and Energy Conservation in Chemical Reactions](#section-2-mass-conservation-and-energy-conservation-in-chemical-reactions)
    * [Law of Conservation of Mass in Chemical Reactions](#law-of-conservation-of-mass-in-chemical-reactions)
@@ -55,9 +53,23 @@
       + [Order of chemical reaction](#order-of-chemical-reaction)
       + [Catalyst](#catalyst)
       + [Factors Affecting the Rate of Heterogeneous Reactions](#factors-affecting-the-rate-of-heterogeneous-reactions)
-         - [Extra information](#extra-information)
-
-<!-- TOC end -->
+- [Section 6 Colligative properties of dilute solutions, the vapor pressure of the solution drops](#section-6-colligative-properties-of-dilute-solutions-the-vapor-pressure-of-the-solution-drops)
+   * [The boiling point of the solution increases and the freezing point decreases.](#the-boiling-point-of-the-solution-increases-and-the-freezing-point-decreases)
+   * [Osmotic pressure](#osmotic-pressure)
+   * [Ideal gas law](#ideal-gas-law)
+- [Section 7 Acid-base proton theory](#section-7-acid-base-proton-theory)
+   * [Proton transfer equilibrium constant](#proton-transfer-equilibrium-constant)
+      + [Example](#example)
+      + [Calculating pH](#calculating-ph)
+- [Section 8 Precipitation and Dissolution Equilibrium of Insoluble Electrolytes](#section-8-precipitation-and-dissolution-equilibrium-of-insoluble-electrolytes)
+   * [Solution product](#solution-product)
+- [Section 9 Coordination Balance Concept, composition and naming of coordination compounds](#section-9-coordination-balance-concept-composition-and-naming-of-coordination-compounds)
+- [Section 10 Redox Reaction](#section-10-redox-reaction)
+- [Section 11 Galvanic cell and Electrode Potential](#section-11-galvanic-cell-and-electrode-potential)
+- [Section 12 Electrolysis](#section-12-electrolysis)
+- [Section 13 Corrosion and Protection of Metals](#section-13-corrosion-and-protection-of-metals)
+- [Section 14 Terminus](#section-14-terminus)
+   * [In English](#in-english)
 
 # Section 1 Several basic concepts
 
@@ -1010,21 +1022,532 @@ $ C(s) + O_2(g) = CO_2(g) $
 
 $ v = kc(O_2) $
 
-#### Extra information
+# Section 6 Colligative properties of dilute solutions, the vapor pressure of the solution drops
+
+## The boiling point of the solution increases and the freezing point decreases.
+
+When a non-volatile solute is added to a solvent, two colligative properties are observed:
+
+1. Boiling Point Elevation: The addition of a non-volatile solute to a solvent results in an increase in the boiling point of the solution compared to the pure solvent. This happens because the vapor pressure of the solution is lower than that of the pure solvent, so it requires a higher temperature to reach the vapor pressure necessary for boiling.
+
+2. Freezing Point Depression: The presence of a non-volatile solute causes the freezing point of the solution to decrease compared to the pure solvent. This occurs because the solute disrupts the regular arrangement of solvent molecules in the solid phase, making it more difficult for the solution to freeze.
+
+These colligative properties are directly related to the concentration of the solute and can be calculated using equations that take into account properties of the solvent and the solute.
+
+## Osmotic pressure
+
+The Van't Hoff method, also known as the Van't Hoff factor or the Van't Hoff equation, is a mathematical relationship that relates the osmotic pressure of a solution to its solute concentration. It was developed by Dutch physical chemist Jacobus Henricus van 't Hoff and is a fundamental concept in the study of colligative properties of solutions.
+
+The Van't Hoff method is used to calculate the osmotic pressure of a solution, and it's based on the following equation:
+
+$$ π = iCRT $$
+
+Where:
+- π is the osmotic pressure.
+- i is the Van't Hoff factor, which represents the number of particles into which the solute dissociates in the solution. For non-ionic solutes, i is generally equal to 1. For ionic compounds that dissociate into multiple ions, i is greater than 1. For example, NaCl dissociates into two ions (Na+ and Cl-), so i = 2.
+- C is the molar concentration of the solute.
+- R is the ideal gas constant.
+- T is the absolute temperature in kelvin.
+
+Here's how the Van't Hoff method works:
+
+1. Determine the Van't Hoff factor (i) for the solute based on its chemical formula and its behavior in the solution.
+
+2. Measure the molar concentration (C) of the solute in the solution. This is usually expressed in moles per liter (mol/L).
+
+3. Ensure the temperature (T) is in kelvin (K). If the temperature is given in degrees Celsius (°C), add 273.15 to convert it to kelvin.
+
+4. Plug the values of i, C, R, and T into the Van't Hoff equation to calculate the osmotic pressure (π) of the solution.
+
+The Van't Hoff method is valuable in understanding colligative properties of solutions, which include changes in properties like vapor pressure, boiling point elevation, freezing point depression, and osmotic pressure due to the presence of solutes in a solvent. By using this method, scientists and chemists can predict and measure these colligative properties and understand how they depend on the solute concentration.
+
+It's important to note that the Van't Hoff method is an idealization and may not always perfectly describe real-world solutions, especially when solute-solvent interactions are significant. However, it provides a good approximation for many solutions and is a valuable tool in physical chemistry and chemical engineering.
+
+## Ideal gas law
+
+The expression you provided, $\(M_B = \frac{m_B \cdot RT}{PV}\)$, is related to the ideal gas law and can be used to calculate the molar mass (molecular weight) of a gas (substance) when you know the mass of the substance, the temperature, the pressure, and the volume. Let me break down the components of this equation:
+
+- $\(M_B\)$: This represents the molar mass of the substance, typically expressed in g/mol (grams per mole). It is what you are trying to calculate.
+
+- $\(m_B\)$: This represents the mass of the substance in grams (g).
+
+- $\(R\)$: The ideal gas constant. Its value is approximately 8.314 J/(mol·K) in SI units. It is used to relate various properties of an ideal gas.
+
+- $\(T\)$: The absolute temperature of the gas in kelvin (K). To convert from degrees Celsius (°C) to kelvin, you can use the formula $\(T(K) = T(°C) + 273.15\)$.
+
+- $\(P\)$: The pressure of the gas in pascals (Pa) or atm (atmospheres). Make sure that the pressure unit you're using is consistent with the value of the ideal gas constant (\(R\)) you're using. If you're using atm, you need to use the ideal gas constant with atm units.
+
+- $\(V\)$: The volume of the gas in liters (L).
+
+The equation essentially states that the molar mass of the gas $(\(M_B\))$ is equal to the product of the mass of the gas $(\(m_B\))$, the ideal gas constant $(\(R\))$, and the absolute temperature $(\(T\))$, divided by the product of the pressure $(\(P\))$ and the volume $(\(V\))$.
+
+This equation is a rearranged form of the ideal gas law, which relates the properties of an ideal gas (a hypothetical gas that follows ideal behavior) under specific conditions. It can be used to calculate the molar mass of a gas when you have the necessary data (mass, temperature, pressure, and volume).
+
+# Section 7 Acid-base proton theory
+
+The acid-base proton theory, also known as the Brønsted-Lowry theory, is one of the fundamental concepts in chemistry that describes the behavior of acids and bases in aqueous solutions. This theory was proposed independently by Danish chemist Johannes Nicolaus Brønsted and British chemist Thomas Martin Lowry in the early 20th century.
+
+The Brønsted-Lowry theory defines acids and bases as follows:
+
+1. **Acids:** Acids are substances that can donate protons (H+ ions) to other substances. In other words, an acid is a molecule or ion that has the ability to release hydrogen ions when it dissolves in water. For example, hydrochloric acid (HCl) can donate a proton to water, forming the hydronium ion (H3O+).
+
+2. **Bases:** Bases are substances that can accept protons (H+ ions) from other substances. A base is a molecule or ion that can react with protons, effectively "grabbing" them. For example, ammonia (NH3) can accept a proton from water to form the hydroxide ion (OH-) and the ammonium ion (NH4+).
+
+Key points to remember about the Brønsted-Lowry theory:
+
+- An acid must have at least one hydrogen atom that can be donated as a proton.
+- A base must have an available pair of electrons to accept a proton.
+- Acid-base reactions involve the transfer of protons from the acid to the base.
+- The resulting products of the reaction depend on the specific acid and base involved.
+
+This theory has widespread applications in chemistry, biology, and other fields. It provides a clear and versatile way to understand the behavior of acids and bases in various chemical reactions and is a fundamental concept in the study of pH, buffer solutions, and acid-base equilibria.
+
+## Proton transfer equilibrium constant
+
+The proton transfer equilibrium constant, often denoted as K or K_p, is a quantitative measure of the extent to which a proton transfer reaction between an acid (donor) and a base (acceptor) reaches equilibrium. It provides information about the position of the equilibrium and whether the reaction favors the formation of products (conjugate acid and conjugate base) or reactants (acid and base).
+
+The general expression for the proton transfer equilibrium constant is as follows:
+
+$$K = [Conjugate Acid] [Conjugate Base] / [Acid] [Base]$$
+
+In this equation:
+- **[Conjugate Acid]** and **[Conjugate Base]** are the concentrations of the conjugate acid and conjugate base, respectively, at equilibrium.
+- **[Acid]** and **[Base]** are the concentrations of the original acid and base, respectively, at equilibrium.
+
+The value of K indicates the position of the equilibrium:
+
+1. **K > 1:** If the equilibrium constant (K) is greater than 1, it means that the concentration of products (conjugate acid and conjugate base) is greater than the concentration of reactants (acid and base) at equilibrium. This suggests that the reaction favors the formation of products, and the equilibrium lies to the right.
+
+2. **K < 1:** If the equilibrium constant (K) is less than 1, it indicates that the concentration of products is lower than the concentration of reactants at equilibrium. In this case, the reaction favors the formation of reactants, and the equilibrium lies to the left.
+
+3. **K = 1:** If K is approximately equal to 1, it suggests that the concentrations of products and reactants at equilibrium are roughly equal. This indicates that the reaction neither favors the formation of products nor the formation of reactants, and the equilibrium position is balanced.
+
+The specific value of K depends on the specific acid-base reaction being considered. For example, the equilibrium constant for the ionization of water, which involves the formation of hydronium (H3O+) and hydroxide (OH-) ions, is represented as K_w and has a fixed value at a given temperature (e.g., K_w = 1.0 x 10^-14 at 25°C).
+
+Understanding the proton transfer equilibrium constant is crucial for predicting the direction and extent of acid-base reactions and for quantifying the strength of acids and bases in various chemical systems. It helps chemists determine the acidity or basicity of solutions and assess the feasibility of proton transfer reactions.
+
+### Example
+
+Certainly! Let's calculate the proton transfer equilibrium constant (K) for a simple acid-base reaction: the ionization of acetic acid (CH3COOH) in water to form acetate ions (CH3COO-) and hydronium ions (H3O+). The balanced chemical equation for this reaction is:
+
+CH3COOH (aq) + H2O (l) ⇌ CH3COO- (aq) + H3O+ (aq)
+
+We can calculate K using the formula:
+
+$$ K = [CH3COO-] [H3O+] / [CH3COOH] [H2O] $$
+
+Let's assume we have a 0.1 M solution of acetic acid (CH3COOH) in water. At equilibrium, we measure the following concentrations:
+
+- [CH3COO-] = 0.02 M
+- [H3O+] = 0.04 M
+
+We know that water is present in vast excess and is treated as a constant. So, we can approximate [H2O] as a constant, which simplifies our calculation. We can rewrite the formula as:
+
+**K = [CH3COO-] [H3O+] / [CH3COOH] * constant (for [H2O])**
+
+Let's plug in the values:
+
+**K = (0.02 M) * (0.04 M) / (0.1 M) * constant**
+
+Now, calculate the numerical value:
+
+**K = (0.0008 M^2) / (0.01 M) * constant**
+
+K = 0.08 * constant
+
+The value of "constant" depends on the conditions of the experiment, such as temperature. However, the value of "constant" is approximately 55.5 M (at 25°C).
+
+Now, calculate K:
+
+**K ≈ 0.08 * 55.5 M ≈ 4.44 M**
+
+So, the proton transfer equilibrium constant (K) for the ionization of acetic acid in water at these conditions is approximately 4.44 M.
+
+Please note that this is a simplified example, and in practice, you would also consider the activity of the species and the effect of temperature. The value of "constant" is a simplification used here for illustrative purposes. In real experiments, you may need to consult tables of water activities or thermodynamic constants to obtain a more accurate value for "constant" at a specific temperature.
+
+### Calculating pH
+
+To calculate the pH (acidity or alkalinity) of a solution, you can use the following formula:
+
+$$pH = -log[H+]$$
+
+Here's how to calculate the pH step by step:
+
+1. Determine the concentration of hydronium ions $(\(H^+\))$ in the solution. This is often given in moles per liter (M or mol/L). If it's not given, you might need to perform a chemical analysis to find it.
+
+2. Take the negative logarithm (base 10) of the hydronium ion concentration. Use a scientific calculator or any tool that allows you to calculate logarithms.
+
+   $$ pH = -log[H+] $$
+
+3. Calculate the pH using the formula above. The result is the pH of the solution.
+
+For example, if the concentration of $\(H^+\)$ ions in a solution is 1 x 10^(-3) M (0.001 M), you can calculate the pH as follows:
+
+$$pH = -log(1 x 10^(-3))$$
+
+$$pH = -log(0.001)$$
+
+$$pH = -(-3)$$
+
+$$pH = 3$$
+
+So, in this example, the pH of the solution is 3, which indicates an acidic solution. A pH of 7 is considered neutral, a pH less than 7 is acidic, and a pH greater than 7 is alkaline or basic.
+
+Keep in mind that the pH scale is logarithmic, so each whole pH unit represents a tenfold difference in acidity. For example, a solution with a pH of 2 is ten times more acidic than a solution with a pH of 3.
+
+# Section 8 Precipitation and Dissolution Equilibrium of Insoluble Electrolytes
+
+Precipitation and dissolution equilibrium of insoluble electrolytes involve the dynamic balance between the dissolution and precipitation of sparingly soluble ionic compounds in a solution. This equilibrium is governed by the solubility product constant (\(K_{sp}\)), which is a measure of the solubility of a compound in a particular solvent.
+
+Here's an explanation of precipitation and dissolution equilibrium for insoluble electrolytes:
+
+1. **Sparingly Soluble Ionic Compounds:** Some ionic compounds have low solubility in water and tend to form solid precipitates when added to a solution. These compounds are often called insoluble electrolytes.
+
+2. **Equilibrium Reaction:** The dissolution of an insoluble electrolyte can be represented by a chemical equation. For example, consider the sparingly soluble compound silver chloride (AgCl):
+
+   $$\[AgCl(s) \rightleftharpoons Ag^+(aq) + Cl^-(aq)\]$$
+
+   In this equation, AgCl solid dissolves partially into its constituent ions, Ag⁺ and Cl⁻, in the aqueous solution.
+
+3. **Solubility Product Constant (\(K_{sp}\)):** The equilibrium expression for the above reaction can be written as:
+
+   $$\[K_{sp} = [Ag^+][Cl^-]\]$$
+
+   $\(K_{sp}\)$ is a constant at a given temperature for a specific ionic compound. It represents the product of the equilibrium concentrations of the dissolved ions raised to the power of their coefficients in the equilibrium equation. It is used to quantify the solubility of the compound.
+
+4. **Precipitation and Dissolution Equilibrium:** When an ionic compound is added to a solution, it may dissolve to some extent, leading to the formation of ions in the solution. If the concentration of these ions exceeds the solubility product constant $(\(K_{sp}\))$, the compound will precipitate. If the concentration of the ions is below $\(K_{sp\)$, no precipitation will occur. The system is at equilibrium when the rate of dissolution equals the rate of precipitation.
+
+5. **Effect of Ions:** Common ion effect can influence the solubility equilibrium. If a solution already contains one of the ions present in the equilibrium reaction, it can shift the equilibrium to favor the formation of the solid (precipitate). This is because the product of the ion concentrations in the equilibrium expression must remain constant.
+
+6. **Changing Conditions:** Factors like temperature, pH, and the presence of complexing agents can affect the solubility equilibrium of insoluble electrolytes. For some compounds, temperature increases can lead to an increase in solubility, while for others, it may decrease.
+
+Precipitation and dissolution equilibrium is essential in various chemical processes, including qualitative analysis of ions, the formation of ionic precipitates, and the control of solubility in industrial applications. It provides a basis for understanding how the solubility of sparingly soluble compounds is affected by different conditions.
 
 
-*Director of Keyuan*
+## Solution product
 
-According to statistics, catalysts are used in more than 90% of industrial processes. The production of fertilizers, the operation of fuel cells, and exhaust gas purification devices in cars that we often hear about are all possible with the help of catalysts.
+The solubility product $\(K_sp\)$ is a fundamental concept in chemistry, particularly in the field of equilibrium and ionic compounds. It quantifies the degree to which an ionic compound will dissolve in water or another solvent, and it plays a crucial role in determining the solubility of such compounds.
 
-Ammonia is the main source of artificial fertilizers and one of the most basic chemical raw materials. From a thermodynamic point of view, the synthesis of ammonia from the reaction of N2(g) and H2(g) can be carried out under normal temperature and pressure conditions. However, because nitrogen molecules are very stable and difficult to activate, industrial ammonia synthesis must be achieved under high temperature and high-pressure conditions (350~500℃, 50~200atm) even if an iron catalyst is used. This method is one of the research results of German chemist Gerhard Ertl, who won the 2007 Nobel Prize in Chemistry for his work on solid surface chemistry.
+Here are the key points about solubility product:
 
-Such harsh conditions require the ammonia industry to consume 1% to 2% of the total global energy supply every year. China is the largest country in the production of synthetic ammonia, and its annual output of synthetic ammonia is close to 30% of the world's total ammonia. Therefore, in view of China's national conditions, developing low-pressure, low-temperature, and efficient ammonia synthesis catalysts is of great strategic significance, and it is also a goal that catalytic workers have never stopped pursuing.
+1. **Definition:** Solubility product $\(K_sp\)$ is the equilibrium constant for a solid compound dissolving into its constituent ions in a solution. It represents the product of the equilibrium concentrations of these ions raised to the power of their coefficients in the balanced chemical equation for the dissolution.
 
-Past research has shown that in the elementary reaction to synthesize ammonia on the surface of a transition metal, there is a constraint between the reaction activation energy and the adsorption energy of the reactant NH3. Therefore, on a single transition metal, it is difficult to achieve low-temperature synthesis of ammonia on the catalytic center. In response to the above problems, a research team led by researcher Chen Ping from the Dalian Institute of Chemical Physics, Chinese Academy of Sciences, creatively introduced lithium hydride (LiH) as the second component into the catalyst to construct a "transition metal-lithium hydride" dual active center composite catalyst system.
+2. **General Equation:** For a generic sparingly soluble salt $\(M_xY_y\)$, the equilibrium expression is given as:
 
-The importance of catalyst research can be reflected in the following Nobel Prizes in Chemistry:
+   $$ \[M_xY_y (s) \rightleftharpoons xM^{z+} (aq) + yY^{w-} (aq)\] $$
 
-1. **2010 Nobel Prize in Chemistry:** Palladium-catalyzed cross-coupling organic synthesis reactions. The anti-cancer drug paclitaxel, the anti-inflammatory drug naproxen, and hydratoxin all use corresponding catalysts and synthesis methods.
+   The solubility product $(\(K_{sp\))$ is defined as:
 
-2. **2005 Nobel Prize in Chemistry:** Metathesis Methods for Organic Synthesis. The olefin metathesis reaction refers to the process of cutting and recombining carbon-carbon double bonds under metal catalysis. In 1970, French scientist Yves Chauvin and his students published a paper proposing that the catalyst in the olefin metathesis reaction should be a metal carbene, explaining in detail how the catalyst acts as a "middleman" and helps olefin molecules "exchange dance partners." It represents a great step toward "green chemistry," mainly because its application improves the output and efficiency of chemical production, reduces by-products, and its by-products are mainly ethylene, which can be reused.
+   $$ \[K_{sp} = [M^{z+}]^x [Y^{w-}]^y\] $$
+
+   where $\([M^{z+}]\) and \([Y^{w-}]\)$ are the equilibrium concentrations of the ions in solution.
+
+3. **Solubility:** The solubility $(\(S\))$ of an ionic compound in a specific solvent is the maximum amount of the compound that can dissolve in that solvent at a given temperature. The value of $\(K_{sp}\)$ is directly related to the solubility of the compound. The greater the \$(K_{sp\)$, the more soluble the compound is.
+
+4. **Units:** The units of $\(K_sp\)$ depend on the coefficients in the balanced chemical equation. If the coefficients are in moles (as in the example above), the units of $\(K_{sp}\)$ will be in moles per liter raised to the power of the coefficients.
+
+5. **Ionic Strength:** $\(K_sp\)$ is temperature-dependent. Increasing the temperature generally increases the solubility of ionic compounds, causing $\(K_{sp}\)$ to increase.
+
+6. **Common Ion Effect:** The presence of a common ion (an ion already in the solution) can decrease the solubility of a compound by shifting the equilibrium toward the formation of the solid. This effect is important in understanding precipitation reactions.
+
+7. **Applications:** $\(K_sp\)$ values are crucial in predicting the formation of precipitates and the solubility of various compounds. They are used in qualitative analysis to identify the presence of specific ions and in quantitative analysis to determine the concentration of ions.
+
+8. **Comparison to $\(Q_sp\)$:** The reaction quotient $\(Q_sp\)$ is similar to $\(K_sp\)$ but is used to describe the conditions at a specific point in time, not necessarily at equilibrium. By comparing $\(Q_{sp}\)$ to $\(K_{sp}\)$, you can determine whether a precipitate will form, dissolve, or remain in the solution.
+
+Understanding solubility product is vital in various areas of chemistry, including analytical chemistry, environmental science, and in predicting the behavior of ionic compounds in various chemical processes. It allows chemists to make predictions about the solubility of different compounds and the formation of precipitates under specific conditions.
+
+Coordination compounds, often referred to as complex compounds or coordination complexes, are a class of compounds that consist of a central metal atom or ion bonded to one or more surrounding molecules or ions, known as ligands. Coordination compounds have unique properties and play a crucial role in various chemical and biological processes. Let's explore the concept, composition, and naming of coordination compounds:
+
+# Section 9 Coordination Balance Concept, composition and naming of coordination compounds
+
+**1. Concept of Coordination Compounds:**
+   - Coordination compounds result from the coordination of ligands to a central metal atom or ion.
+   - Ligands are molecules or ions with one or more lone pairs of electrons, and they form coordinate covalent bonds with the central metal atom or ion.
+   - The central metal atom or ion is called the coordination center.
+   - Coordination compounds are characterized by their complex structures and distinct properties, including color, magnetic behavior, and reactivity.
+
+**2. Composition of Coordination Compounds:**
+   - Coordination compounds consist of the following components:
+     a. **Central Metal Atom or Ion:** The central atom or ion typically provides the electrons for bonding and is often a transition metal.
+     b. **Ligands:** Ligands are molecules or ions that bond to the central metal through one or more pairs of electrons. Common ligands include water (H₂O), ammonia (NH₃), chloride ions (Cl⁻), and cyanide ions (CN⁻).
+     c. **Coordination Sphere:** This is the central metal atom or ion along with the ligands bonded to it. It is enclosed within square brackets, such as \([Cu(NH₃)_4]^{2+}\), where \(Cu^{2+}\) is the central metal ion coordinated with four ammonia ligands.
+     d. **Counterions:** These are the ions that balance the charge of the complex. They are located outside the square brackets. In the example above, the counterion is \(SO_4^{2-}\), resulting in the overall compound \([Cu(NH₃)_4]SO_4\).
+
+**3. Naming of Coordination Compounds:**
+   - Coordination compounds have a systematic naming system based on the rules established by the International Union of Pure and Applied Chemistry (IUPAC).
+   - The naming of coordination compounds generally follows the format: ligands first, followed by the central metal ion or atom. Here are some key naming rules:
+     a. **Naming Ligands:**
+        - The names of neutral ligands are generally the same as the molecular names of the ligands. For example, H₂O is called "aquaa."
+        - Anionic ligands typically have their names ending in "-o." For example, Cl⁻ is called "chloro."
+     b. **Naming the Central Metal Atom or Ion:**
+        - The central metal atom or ion is named using its elemental name. For example, Fe³⁺ is called "iron(III)."
+     c. **Counting Ligands:**
+        - The number of ligands is indicated using Greek prefixes. For example, "di-" means two, "tri-" means three, "tetra-" means four, etc.
+     d. **Naming Isomers:**
+        - Different isomers (compounds with the same atoms but different arrangements) are distinguished using the terms "cis" (similar atoms are on the same side) and "trans" (similar atoms are on opposite sides).
+
+**Examples:**
+   - [Co(NH₃)₆]Cl₃ is called "hexaamminecobalt(III) chloride."
+   - [Pt(NH₃)₂Cl₃] is called "diamminedichloroplatinum(IV)."
+
+Coordination compounds are widely used in various fields, including catalysis, medicine, and materials science. Understanding their composition and nomenclature is essential for chemists working with these versatile compounds.
+
+# Section 10 Redox Reaction
+
+Certainly, let's break down the concepts of redox reactions, redox, and oxidation numbers:
+
+**Redox Reaction (Reduction-Oxidation Reaction):**
+- A redox reaction is a chemical reaction in which there is a transfer of electrons between two substances (atoms, ions, or molecules).
+- In redox reactions, one substance loses electrons (undergoes oxidation), and another substance gains those electrons (undergoes reduction).
+- Oxidation involves the loss of electrons, and reduction involves the gain of electrons.
+
+**Redox (Reduction-Oxidation):**
+- Redox is a shorthand term used to describe the interplay between reduction and oxidation processes in a chemical reaction.
+- Reduction is the process in which an atom, ion, or molecule gains electrons.
+- Oxidation is the process in which an atom, ion, or molecule loses electrons.
+- These processes occur simultaneously in a redox reaction.
+
+**Oxidation Number:**
+- The oxidation number, or oxidation state, of an atom in a compound is a value that represents the number of electrons an atom has gained or lost relative to its neutral state.
+- It's a way to track which atoms undergo oxidation (increase in oxidation number) and which undergo reduction (decrease in oxidation number) in a redox reaction.
+- Rules for assigning oxidation numbers include assigning the element's oxidation number as if it were an ion, with some exceptions.
+  
+**Example 1 - Redox Reaction:**
+Consider the reaction between hydrogen (H₂) and oxygen (O₂) to form water (H₂O):
+
+$$ 2H₂ + O₂ → 2H₂O $$
+
+- In this reaction, hydrogen (H₂) loses electrons and is oxidized to form positively charged hydrogen ions (H⁺).
+- Oxygen (O₂) gains those electrons and is reduced to form negatively charged oxide ions (O²⁻).
+- Hydrogen is oxidized, and oxygen is reduced, making it a redox reaction.
+
+**Example 2 - Oxidation Number:**
+In the compound HCl (hydrochloric acid), hydrogen (H) has an oxidation number of +1, and chlorine (Cl) has an oxidation number of -1. This indicates that hydrogen loses an electron, and chlorine gains an electron when forming the compound.
+
+In summary, redox reactions involve the exchange of electrons, where one substance is oxidized (loses electrons) and another is reduced (gains electrons). Oxidation numbers help track these electron transfers within compounds. These concepts are fundamental to understanding chemical reactions and are vital in various fields, including chemistry and biology.
+
+# Section 11 Galvanic cell and Electrode Potential
+
+A primary battery, also known as a non-rechargeable battery, is a type of electrochemical cell that is designed for one-time use. Once the chemical reactions within the cell are exhausted and the reactants are depleted, a primary battery cannot be recharged and must be replaced. Primary batteries are commonly found in everyday household items such as remote controls, flashlights, and small electronic devices. Here are some key characteristics and examples of primary batteries:
+
+**Characteristics of Primary Batteries:**
+1. **Non-Rechargeable:** As the name suggests, primary batteries cannot be recharged. Once their stored energy is used up, they are discarded.
+
+2. **Chemical Reactions:** Primary batteries rely on chemical reactions between their components (anode, cathode, and electrolyte) to generate electrical energy. These reactions are typically irreversible.
+
+3. **Limited Lifespan:** Primary batteries have a finite lifespan, and their capacity gradually decreases over time even when not in use. This is known as self-discharge.
+
+4. **Variety of Types:** Primary batteries come in various types, each with its own chemistry, voltage, and intended use. Common types include alkaline, zinc-carbon, and lithium batteries.
+
+**Examples of Primary Batteries:**
+1. **Alkaline Batteries:** Alkaline batteries are a widely used type of primary battery. They provide a stable voltage and are commonly used in devices like remote controls, flashlights, and toys.
+
+2. **Zinc-Carbon Batteries:** These batteries are among the most affordable types and are used in devices with low power requirements. They are often found in items like wall clocks, smoke detectors, and simple portable radios.
+
+3. **Lithium Batteries:** Lithium primary batteries offer a long shelf life and are suitable for high-drain devices like digital cameras, medical devices, and watches.
+
+4. **Mercury Batteries:** Mercury batteries have been phased out due to environmental concerns. They were once used in devices such as hearing aids and cameras.
+
+5. **Silver Oxide Batteries:** Silver oxide primary batteries are commonly used in watches and other small electronic devices requiring stable and precise voltage.
+
+Primary batteries are known for their reliability and long shelf life, which makes them suitable for applications where frequent battery replacement is not practical. However, it's essential to recycle primary batteries properly since they contain materials that can be harmful to the environment. Many regions have battery recycling programs in place to ensure responsible disposal.
+
+Certainly, let's discuss electrode potential, factors affecting it, and its relationship with electromotive force and Gibbs function.
+
+**2. Electrode Potential:**
+- Electrode potential, often denoted as E, is a measure of the electric potential difference between an electrode and its surrounding solution.
+- It represents the tendency of an electrode to gain or lose electrons and undergo an electrochemical reaction.
+- Electrode potential is crucial in electrochemical processes, such as galvanic cells (batteries) and electrolysis.
+
+**3. Factors Affecting Electrode Potential:**
+Several factors influence the electrode potential:
+- **Concentration of Ions:** The concentration of ions in the solution surrounding the electrode affects its potential. Changes in ion concentration can shift the electrode potential.
+- **Temperature:** Temperature can impact the rate of electrochemical reactions, leading to changes in electrode potential.
+- **Nature of Electrode:** The material and surface properties of the electrode can influence its potential. Different electrode materials may have different electrode potentials.
+- **Pressure:** For gaseous reactions, pressure can affect the partial pressures of gases involved and alter electrode potential.
+
+**4. Relationship Between Electromotive Force (EMF) and Gibbs Function:**
+- Electromotive force (EMF) is the potential difference between the two electrodes in an electrochemical cell (like a battery). It drives the flow of electrons through an external circuit.
+- The Gibbs function (G) is a thermodynamic quantity that describes the free energy of a system.
+- The relationship between EMF, Gibbs function, and temperature (T) is given by the Nernst equation:
+
+    $$E = E° - (RT / nF) * ln(Q)$$
+
+  Where:
+  - $E$ is the cell's EMF (measured in volts).
+  - $E°$ is the standard electrode potential.
+  - $R$ is the gas constant.
+  - $T$ is the temperature in Kelvin.
+  - $n$ is the number of moles of electrons transferred in the balanced chemical equation for the cell reaction.
+  - $F$ is Faraday's constant (the charge on one mole of electrons).
+  - $Q$ is the reaction quotient (a ratio of product concentrations to reactant concentrations).
+
+This equation links the electrode potential (E) to the standard electrode potential (E°), temperature (T), and the reaction quotient (Q). It's essential for understanding the behavior of electrochemical cells and batteries.
+
+These concepts are fundamental in electrochemistry and help explain the behavior of batteries, fuel cells, and other electrochemical systems. They play a crucial role in various applications, including energy storage and corrosion prevention.
+
+The equation $G_m = -zFE$ is a fundamental equation in electrochemistry and thermodynamics. It describes the Gibbs free energy change (ΔG_m) for an electrochemical reaction. Let's break down the components of this equation:
+
+- **G_m**: This represents the Gibbs free energy change associated with the electrochemical reaction. The Gibbs free energy (G) is a thermodynamic function that describes the energy available to do useful work during a chemical or physical process.
+
+- **z**: This term represents the number of moles of electrons transferred during the electrochemical reaction. It's known as the "stoichiometric coefficient" or "reaction coefficient" for electrons.
+
+- **F**: The Faraday constant (F) is a fundamental physical constant representing the charge of one mole of electrons. It has a value of approximately 96,485 C/mol (coulombs per mole).
+
+- **E**: This represents the potential difference (voltage) across the electrochemical cell, typically measured in volts (V). It corresponds to the electric potential or electromotive force (emf) of the cell.
+
+In summary, the equation G_m = -zFE relates the Gibbs free energy change (ΔG_m) to the number of moles of electrons transferred (z), the Faraday constant (F), and the cell potential (E) for an electrochemical reaction. This equation is crucial for understanding the thermodynamics and energy changes associated with electrochemical processes, such as those occurring in batteries, fuel cells, and various chemical reactions. It helps determine whether a given electrochemical reaction is thermodynamically favorable or not.
+
+# Section 12 Electrolysis
+
+An electrolysis cell is a device used to drive a non-spontaneous chemical reaction through the application of an external electric current. It consists of two electrodes (usually made of metal or graphite) immersed in an electrolyte solution. When an electric potential is applied between the electrodes, the process of electrolysis occurs. Here are some key concepts related to electrolysis:
+
+1. **Decomposition Voltage**: The decomposition voltage, also known as the electrolysis potential or cell voltage, is the minimum electric potential required to initiate the electrolysis of a specific compound. It varies depending on the substance being electrolyzed. It is the energy input needed to drive the non-spontaneous reaction.
+
+2. **Products of Electrolysis**: The products of electrolysis depend on the substance being electrolyzed. There are two main types of products:
+
+   - **Cations (Positive Ions)**: At the cathode (the electrode connected to the negative terminal of the power supply), cations from the electrolyte solution gain electrons and are reduced. The specific products depend on the cations present. For example, in the electrolysis of water (H2O), hydrogen ions (H+) are reduced to form hydrogen gas (H2).
+
+   - **Anions (Negative Ions)**: At the anode (the electrode connected to the positive terminal of the power supply), anions from the electrolyte solution lose electrons and are oxidized. The specific products depend on the anions present. For the electrolysis of water, hydroxide ions (OH-) are oxidized to form oxygen gas (O2).
+
+   Overall, the process of electrolysis allows the separation of a compound into its constituent elements or ions. For example, during the electrolysis of molten table salt (NaCl), sodium metal (Na) is formed at the cathode, while chlorine gas (Cl2) is produced at the anode.
+
+Electrolysis has various practical applications, such as electroplating, water splitting to produce hydrogen gas, and refining of metals. It plays a crucial role in industries and laboratories where the controlled manipulation of chemical reactions is needed.
+
+# Section 13 Corrosion and Protection of Metals
+
+Corrosion is a natural process that involves the deterioration of metals due to their reaction with the environment. It can be classified into different types, and one of the common classifications is chemical corrosion and electrochemical corrosion. Additionally, methods are employed to prevent or minimize metal corrosion. Here's an overview of these concepts:
+
+1. **Chemical Corrosion**:
+   - **Definition**: Chemical corrosion, also known as dry or direct chemical corrosion, occurs when metals react with chemicals in the environment, such as gases and non-metallic compounds, without the involvement of an electrolyte (e.g., water).
+   - **Examples**: The rusting of iron in the presence of oxygen in the air is a classic example of chemical corrosion. In this case, iron reacts with oxygen to form iron oxide (rust).
+
+2. **Electrochemical Corrosion**:
+   - **Definition**: Electrochemical corrosion, also known as wet or indirect chemical corrosion, is the most common type of corrosion. It occurs when metals are exposed to an electrolyte, typically moisture (e.g., water or humidity), which facilitates electron flow and corrosion reactions. It involves both oxidation and reduction reactions.
+   - **Examples**: The rusting of iron when it comes into contact with water is an example of electrochemical corrosion. In the presence of water, iron ions are formed by the oxidation of iron, while reduction reactions occur at the cathodic sites, resulting in the formation of rust.
+
+3. **Prevention of Metal Corrosion**:
+   - Several methods are employed to prevent or minimize metal corrosion:
+     - **Use of Protective Coatings**: Applying protective coatings like paint, varnish, or corrosion-resistant films can create a barrier between the metal and the environment.
+     - **Cathodic Protection**: This method involves attaching a sacrificial anode (usually made of a more reactive metal) to the metal to be protected. The sacrificial anode corrodes instead of the protected metal.
+     - **Corrosion Inhibitors**: Chemical compounds can be added to the environment to reduce the corrosion rate. These compounds act as inhibitors that either block the metal surface or form a protective layer.
+     - **Galvanizing**: Coating the metal with a layer of zinc is another method to protect against corrosion. Zinc forms a protective oxide layer that acts as a barrier.
+     - **Alloying**: Using corrosion-resistant alloys, where a small amount of a noble metal is mixed with the base metal, can improve the metal's resistance to corrosion.
+     - **Proper Design and Maintenance**: Ensuring proper drainage, ventilation, and maintenance of metal structures can reduce exposure to moisture and other corrosive factors.
+
+Preventing corrosion is important in various industries, including construction, manufacturing, and transportation, as it helps extend the lifespan and maintain the integrity of metal structures and components.
+
+
+# Section 14 Terminus
+
+## In English
+
+- 系统 (xìtǒng) - system
+- 散开系统 (sànkāi xìtǒng) - spread out the system
+- 封闭系统 (fēngbì xìtǒng) - closed system
+- 孤立系统 (gūlì xìtǒng) - isolated system
+- 相 (xiàng) - phase
+- 均相系统 (jūnxiàng xìtǒng) - homogeneous system
+- 非均相系统 (fēijūnxiàng xìtǒng) - heterogeneous system
+- 环境 (huánjìng) - surroundings
+- 质量守恒定律 (zhìliàng shǒuhéng dìnglǜ) - law of conservation of matter
+- 计量方程式 (jìliàng fāngchéngshì) - stoichiometric equation
+- 化学计量数 (huàxué jìliàng shù) - stoichiometric number
+- 能量守恒定律 (néngliàng shǒuhéng dìnglǜ) - law of conservation of energy
+- 热力第一定律 (rèlì dì yī dìnglǜ) - the first law of thermodynamics
+- 状态 (zhuàngtài) - condition
+- 状态函数 (zhuàngtài hànshù) - state function
+- 二氧化碳气体 (èryǎnghuàtàn qìtǐ) - CO2 (carbon dioxide)
+- 压力 (yālì) - pressure
+- 体积 (tǐjī) - volume
+- 温度 (wēndù) - temperature
+- 物质 (wùzhì) - material
+- 性质 (xìngzhì) - quality/property
+- 液态 (yètài) - liquid state
+- 固态 (gùtài) - solid state
+- 气态 (qìtài) - gas state
+- 热力学能 (rèlìxué néng) - thermodynamic energy
+- 热 (rè) - heat
+- 功 (gōng) - work
+- 体积功 (tǐjī gōng) - expansion volume work
+- 电功 (diàngōng) - electrical work
+- 有用功 (yǒuyòng gōng) - available work
+- 反应热 (fǎnyìng rè) - heat of reaction
+- 定容 (dìngróng) - constant volume
+- 定压 (dìngyā) - constant pressure
+- 焓 (hán) - enthalpy
+- 燃烧 (ránshāo) - combustion/burning
+- 单质碳 (dānzhì tàn) - elementary carbon
+- 碳 (tàn) - carbon
+- 摩尔 (mó'ěr) - mol (mole)
+- 标准摩尔生成焓 (biāozhǔn mó'ěr chéngshēng hán) - standard molar enthalpy of formation
+- 参考态元素 (cānkǎo tài yuánsù) - elements in the referred state
+- 标准摩尔燃烧焓 (biāozhǔn mó'ěr ránshāo hán) - standard molar enthalpy of combustion
+- 自发过程 (zìfā guòchéng) - spontaneous process
+- 气体 (qìtǐ) - gas
+- 融化 (róng huà) - melt
+- 混乱度 (hùnluàndù) - degree of confusion
+- 熵 (shāng) - entropy
+- 规定熵 (guīdìng shāng) - stipulated entropy
+- 标准摩尔熵 (biāozhǔn mó'ěr shāng) - standard molar entropy
+- 可逆反应 (kěnì fǎnyìng) - reversible reaction
+- 化学平衡状态 (huàxué pínghéng zhuàngtài) - equilibrium state
+- 分压力 (fēnyā lì) - partial pressure
+- 气体分压定律 (qìtǐ fēnyā dìnglǜ) - law of partial pressure of gas
+- 摩尔分数 (mó'ěr fènshù) - mole fraction
+- 体积分数 (tǐjī fènshù) - volume fraction
+- 分体机 (fēntǐ jī) - partial volume
+- 标准平衡常数 (biāozhǔn pínghéng chángshù) - standard equilibrium constant
+- 多种平衡规则 (duōzhǒng pínghéng guīzé) - multiple equilibrium regulations
+- 转化率 (zhuǎnhuàlǜ) - yield
+- 等温方程式 (děngwēn fāngchéngshì) - isothermal equation
+- 平衡的移动 (pínghéng de yídòng) - shift in equilibrium
+- 化学反应速率 (huàxué fǎnyìng sùlǜ) - rates of chemical reactions
+- 反应进度 (fǎnyìng jìndù) - extent of reaction
+- 有效碰撞 (yǒuxiào pèngzhuàng) - effective collision
+- 活化分子 (huóhuà fēnzǐ) - activated molecule
+- 活化能 (huóhuà néng) - activation energy
+- 活化配合物 (huóhuà pèihéwù) - activated complex
+- 浓度 (nóngdù) - concentration
+- 基元反应 (jīyuán fǎnyìng) - elementary reaction
+- 质量作用定律 (zhìliàng zuòyòng dìnglǜ) - law of mass action
+- 速率常数 (sùlǜ chángshù) - rate constant
+- 反应速率方程是 (fǎnyìng sùlǜ fāngchéng shì) - equation of reaction rate
+- 反应的机理 (fǎnyìng de jīlǐ) - reaction mechanism
+- 反应级数 (fǎnyìng jíshù) - order of reaction
+- 前指数因子 (qián zhǐshù yīnzǐ) - preexponential factor
+- 催化剂 (cuīhuàjì) - catalyst
+- 溶液 (róngyè) - solution
+- 分散系统 (fēn sàn xìtǒng) - dispersion system
+- 分散剂 (fēn sàn jì) - dispersing agent
+- 溶质 (róngzhì) - solute
+- 溶剂 (róngjì) - solvent
+- 蒸气压 (zhēngqì yā) - vapor pressure
+- 沸点 (fèidiǎn) - boiling point
+- 凝固点 (nínggù diǎn) - freezing point
+- 溶液的沸点升高 (róngyè de fèidiǎn shēnggāo) - boiling point elevation
+- 溶液的凝固点降低 (róngyè de nínggù diǎn jiàngdī) - freezing point depression
+- 半透膜 (bàntòu mó) - semi-permeable membrane
+- 渗透 (shèntòu) - osmosis
+- 依数定律 (yī shù dìnglǜ) - law of colligative properties
+- 等渗溶液 (děnghùn róngyè) - isotonic solution
+- 高渗溶液 (gāoshèn róngyè) - hypertonic solution
+- 低渗溶液 (dīshèn róngyè) - hypotonic solution
+- 酸碱质子理论 (suānjiǎn zhìzǐ lǐlùn) - acid-base proton theory
+- 质子的给予体 (zhìzǐ de jǐyǔ tǐ) - proton donor
+- 酸 (suān) - acid
+- 碱 (jiǎn) - base
+- 质子自递反应 (zhìzǐ zì dì fǎnyìng) - autoprotolysis reaction
+- 质子转移平衡常数 (zhìzǐ zhuǎnyí pínghéng chángshù) - proton transfer equilibrium constants
+- 缓冲溶液 (huǎnchōng róngyè) - buffer solution
+- 沉淀溶解平衡 (chénmiàn róngjiě pínghéng) - precipitation-dissolution equilibrium
+- 溶度积 (róngdù jī) - solubility product
+- 氧化剂 (yǎnghuà jì) - oxidizing agent
+- 还原剂 (huányuán jì) - reducing agent
+- 氧化 (yǎnghuà) - oxidation
+- 负极 (fùjí) - cathode
+- 正极 (zhèngjí) - anode
+- 平衡电势 (pínghéng diànshì) - equilibrium potential
+- 电极电势 (diànjí diànshì) - electrode potential
+- 标准氢电极 (biāozhǔn qīng diànshì) - standard hydrogen electrode
+- 饱和甘录电极 (bǎohé gānlù diànshì) - saturated calomel electrode
